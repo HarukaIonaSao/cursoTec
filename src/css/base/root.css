@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    --font-family:'Space Grotesc',sans-serif ;
+    --bg-color1:#121214;
+    --bg-color2:#6a5acd;
+    --bg-color3:#483d8b;
+    --bg-color4:#191970;   
+    --bg-input:#dfe3ebe9;
+    --bg-calc:#140b31a7;
+    --bg-btn:#5523e12f;
+    --font-color:#eef3f3;
+    --font-input:#030336e4;
+    --hover-link:#8787b5;
+    --hover-btn:#8585f356;
+}

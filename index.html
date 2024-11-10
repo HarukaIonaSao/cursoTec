@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/img/iconcalc.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/base/root.css">
+    <link rel="stylesheet" href="/src/css/base/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/components/calculadora.css">
+    <title>Calculadora</title>
+
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <h2>Desenvolvido por: <a href="https://github.com/HarukaIonaSao">Roberta
+                Ribeiro<a></h2>
+    </header>
+
+    <main>
+        <section class="calculadora">
+            <input id="resultado" >
+    
+            <table class="btn-container">
+                <tr>
+                    <td><button class="button" data-value='C'>C</button></td>
+                    <td><button class="button" data-value='<'>←</button></td>
+                    <td><button class="button" data-value='/'>/</button></td>
+                    <td><button class="button" data-value='*'>*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" data-value='7'>7</button></td>
+                    <td><button class="button" data-value='8'>8</button></td>
+                    <td><button class="button" data-value='9'>9</button></td>
+                    <td><button class="button" data-value='-'>-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" data-value='4'>4</button></td>
+                    <td><button class="button" data-value='5'>5</button></td>
+                    <td><button class="button" data-value='6'>6</button></td>
+                    <td><button class="button" data-value='+'>+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" data-value="1">1</button></td>
+                    <td><button class="button" data-value="2">2</button></td>
+                    <td><button class="button" data-value="3">3</button></td>
+                    <td rowspan="2"><button class="button" style="height: 6.2em;" data-value="=">=</button></td>
+                </tr>
+    
+                <tr>
+                    <td colspan="2"><button class="button" style="width: 6.2em;" data-value="0">0</button></td>
+                    <td><button class="button" data-value=".">.</button></td>
+                </tr>
+            </table>
+    
+        </section>        
+    </main>
+   
+
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>
